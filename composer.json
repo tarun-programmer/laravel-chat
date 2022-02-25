@@ -9,7 +9,7 @@
             "email": "tarun.sewag95@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    
     "require": {
         "php": "^7.2.5|^8.0",
         "beyondcode/laravel-websockets": "^1.13",
