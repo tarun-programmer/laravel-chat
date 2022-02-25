@@ -1,0 +1,32 @@
+{
+    "name": "sunarc/chatsystem",
+    "description": "no",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tarun Sewag",
+            "email": "tarun.sewag95@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "beyondcode/laravel-websockets": "^1.13",
+        "guzzlehttp/psr7": "^1.7",
+        "pusher/pusher-php-server": "~4.0",
+        "laravel/framework": "^7.29"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunarc\\ChatSystem\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sunarc\\ChatSystem\\ChatSystemServiceProvider"
+            ]
+        }
+    }
+}
